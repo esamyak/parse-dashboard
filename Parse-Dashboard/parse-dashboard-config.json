@@ -13,5 +13,6 @@
     "appName": "appNew",
     "iconName": ""
   }],
+  "PORT": "443",
   "iconsFolder": "icons"
 }
