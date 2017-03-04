@@ -29,7 +29,7 @@ program.option('--trustProxy [trustProxy]', 'set this flag when you are behind a
 program.parse(process.argv);
 
 const host = program.host || process.env.HOST || '0.0.0.0';
-const port = program.port || process.env.PORT || 4040;
+const port = program.port || process.env.PORT || 443;
 const mountPath = program.mountPath || process.env.MOUNT_PATH || '/';
 const allowInsecureHTTP = program.allowInsecureHTTP || process.env.PARSE_DASHBOARD_ALLOW_INSECURE_HTTP;
 const trustProxy = program.trustProxy || process.env.PARSE_DASHBOARD_TRUST_PROXY;
