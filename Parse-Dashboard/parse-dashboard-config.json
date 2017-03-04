@@ -4,8 +4,7 @@
     "appId": "myAppPolizi",
     "masterKey": "myMasterPolizi",
     "appName": "app",
-    "iconName": "",
-    "PORT": "443",
+    "iconName": ""
   },
 	{
    "serverURL": "http://localhost:1337/parse-server",
