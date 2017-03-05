@@ -1,4 +1,5 @@
 {
+  "allowInsecureHTTP": true,
   "apps": [{
    "serverURL": "http://localhost:1337/parse",
     "appId": "myAppPolizi",
@@ -13,5 +14,10 @@
     "appName": "appNew",
     "iconName": ""
   }],
-  "iconsFolder": "icons"
+  "iconsFolder": "icons",
+  "users": [
+		{
+			"user":"admin",
+			"pass":"$2y$10$STgjmlDf1f44ehWV1UYNPOug88cWSxWujxDc1AoJvXYKfqGkGLc8S"
+		}]
 }
