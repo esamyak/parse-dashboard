@@ -1,14 +1,14 @@
 {
   "allowInsecureHTTP": true,
   "apps": [{
-   "serverURL": "http://localhost:1337/parse",
+   "serverURL": "http://35.154.113.0:1337/parse",
     "appId": "myAppPolizi",
     "masterKey": "myMasterPolizi",
     "appName": "app",
     "iconName": ""
   },
 	{
-   "serverURL": "http://localhost:1337/parse-server",
+   "serverURL": "http://35.154.113.0:1337/parse-server",
     "appId": "myApp",
     "masterKey": "myMasterApp",
     "appName": "appNew",
