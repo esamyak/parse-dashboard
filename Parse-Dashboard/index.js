@@ -158,7 +158,7 @@ p.then(config => {
 });
 */
 var express = require('express');
-var ParseDashboard = require('parse-dashboard');
+var ParseDashboard = require('./app');
 var path = require('path');
 var fs = require('fs');
 
