@@ -9,15 +9,26 @@
   },
 	{
    "serverURL": "http://35.154.113.0:1337/parse-server",
-    "appId": "myApp",
+    "appId": "diamondManager",
     "masterKey": "myMasterApp",
     "appName": "appNew",
     "iconName": ""
   }],
   "iconsFolder": "icons",
   "users": [
-		{
-			"user":"admin",
-			"pass":"$2y$10$STgjmlDf1f44ehWV1UYNPOug88cWSxWujxDc1AoJvXYKfqGkGLc8S"
-		}]
+      {
+       "user":"sam",
+       "pass":"mass",
+       "apps": [{"appId": "myAppPolizi"},{"appId": "myApp"}]
+     },
+		 {
+       "user":"police",
+       "pass":"password",
+       "apps": [{"appId": "myAppPolizi"}]
+     },
+     {
+       "user":"esamyak",
+       "pass":"Mumbai2017",
+       "apps": [{"appId": "diamondManager"}]
+     }]
 }
